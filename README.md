@@ -13,4 +13,5 @@
 # LSTM
 * Libraries: ``TimeseriesGenerator`` in ``keras``, ``keras.models``, `` keras.layers``, ``keras.callbacks``, ``keras.regularizers``, ``keras.optimizers``, ``keras_tuner``
 * Involved models: univariate and multivariate LSTM, unidirectional and bidirectional LSTM
-* The tuned hyperparameters can be seen in the <b> Hyperparameters <b>
+* Steps: normalization with ``MinMaxScaler()``, generate the time series for LSMT with ``TimeseriesGenerator``, grid search for hyperparameter tuning, train the LSTM and compare performance, select the best models.
+* Check the tuned hyperparameters and results in the report.
