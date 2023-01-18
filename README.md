@@ -11,7 +11,7 @@
 * Steps: time series split, hyperparameter tuning with walk forward validation and grid search for ARIMA and SARIMA, evaluation the generalization with the residual diagnostics and regression metrics
 
 # LSTM
-* Libraries: ``TimeseriesGenerator`` in ``keras``, ``keras.models``, `` keras.layers``, ``keras.callbacks``, ``keras.regularizers``, ``keras.optimizers``, ``keras_tuner``
+* Libraries: ``pandas``, ``TimeseriesGenerator`` in ``keras``,  ``sklearn.preprocessing.MinMaxScaler()``, ``keras.models``, `` keras.layers``, ``keras.callbacks``, ``keras.regularizers``, ``keras.optimizers``, ``keras_tuner``
 * Involved models: univariate and multivariate LSTM, unidirectional and bidirectional LSTM
-* Steps: normalization with ``MinMaxScaler()``, generate the time series for LSMT with ``TimeseriesGenerator``, grid search for hyperparameter tuning, train the LSTM and compare performance, select the best models.
+* Steps: prepare both univariate and multivariate datasets, perform normalization with ``MinMaxScaler()``, generate the time series for LSMT with ``TimeseriesGenerator``, grid search for hyperparameter tuning, train the LSTM and compare performance, select the best models.
 * Check the tuned hyperparameters and results in the report.
