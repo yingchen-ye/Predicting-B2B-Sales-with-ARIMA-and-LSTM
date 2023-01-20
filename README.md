@@ -1,6 +1,6 @@
 # Predicting-B2B-Sales-with-ARIMA-and-LSTM
 * Time series models AR, ARIMA, SARIMA, LSTMs were used to forecast B2B sales with seasonality and trend.
-* This project is the base of the master thesis in collaboration with a commercial company, thus all the outputs were removed for the sake for data security.
+* This project is the base of the master thesis in collaboration with a commercial company, thus all the outputs and confidential information were removed for the sake of data security.
 * "Pipelines" is the diagram of the experiment.
 * Check the hyperparameter tuning and results in the report.
 * The dataset for LSTM was taken log transformation to align with statistical models.
